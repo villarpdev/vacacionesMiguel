@@ -26,9 +26,9 @@ function App() {
     const semanaLarga = [0,1,4,5,6];
     const semanaCorta = [2,3];
 
-    // Obtener el número de días transcurridos desde el 1 de abril de 2024
+    // Obtener el número de días transcurridos desde el lunes de semana corta de tardes
     const millisecondsPerDay = 24 * 60 * 60 * 1000;
-    const startDate = new Date(2024, 3, 1); // 1 de abril de 2024
+    const startDate = new Date(2024, 1, 6); // Poner el lunes de semana corta de tardes
     const currentDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
     const daysPassed = Math.floor((currentDate - startDate) / millisecondsPerDay);
 
