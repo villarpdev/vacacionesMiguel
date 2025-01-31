@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.selected-orange {
+  background-color: orange !important;
+}
+
+.selected-lightblue {
+  background-color: lightblue !important;
+}
+
+.selected-green {
+  background-color: green !important;
+}
